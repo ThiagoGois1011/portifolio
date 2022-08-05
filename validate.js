@@ -107,7 +107,7 @@ function validaTamanho(input){
 	var mensagem = ""
 	
 
-	if(tipoDeInput == "mensagem" && valor > 3){
+	if(tipoDeInput == "mensagem" && valor > 300){
 		mensagem = "O texto deve conter no máximo 300 carateres."
 	}
 
